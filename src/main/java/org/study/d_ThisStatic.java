@@ -22,22 +22,22 @@ package org.study;
     改变副本参数只想地址的值也就改变了原地址指向空间的值。
 
  */
-public class d_thisStatic {
+public class d_ThisStatic {
     static int a;
     static {
         a=7;
         System.out.println(a);
     }
-    public d_thisStatic() {
+    public d_ThisStatic() {
         a=10;
         System.out.println(a);
     }
     public static void main(String[] args) {
-        System.out.println(d_thisStatic.a);
-        d_thisStatic dThisStatic = new d_thisStatic();
-        System.out.println(d_thisStatic.a);
-        d_thisStatic dThisStatic1 = new d_thisStatic();
-        System.out.println(d_thisStatic.a);
+        System.out.println(d_ThisStatic.a);
+        d_ThisStatic dThisStatic = new d_ThisStatic();
+        System.out.println(d_ThisStatic.a);
+        d_ThisStatic dThisStatic1 = new d_ThisStatic();
+        System.out.println(d_ThisStatic.a);
 
     }
 }

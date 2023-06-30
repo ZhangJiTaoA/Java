@@ -46,6 +46,6 @@ package org.study;
 
 
 
-public class c_jvmMemory {
+public class c_JvmMemory {
 
 }

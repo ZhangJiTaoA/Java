@@ -19,6 +19,6 @@ package org.study;
     静态导入：
         import static java.lang.Math.* // 将Math类中所有静态属性导入
  */
-import static java.lang.Math.*;
-public class e_commonSense {
+
+public class e_CommonSense {
 }
