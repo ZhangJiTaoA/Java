@@ -39,7 +39,7 @@ package org.study;
             3. 匿名内部类：比如键盘监听器
             4. 局部内部类：定义在方法内的类
  */
-public class f_objectOriented {
+public class f_ObjectOriented {
 }
 abstract class Animal{
     public abstract void run();
